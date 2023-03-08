@@ -2,3 +2,5 @@
 *.docx
 *.pdf
 *.ini
+/VideoEditor/nbproject/private/
+/VideoEditor/build/
