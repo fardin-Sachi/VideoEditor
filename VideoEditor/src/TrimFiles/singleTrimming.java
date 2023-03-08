@@ -7,8 +7,8 @@ import it.sauronsoftware.jave.VideoAttributes;
 public class singleTrimming {
     public static void main(String[] args) {
         try{
-            File source = new File("src\\Demo_Beginning\\sampleSource.flv");
-            File target = new File("src\\Demo_Beginning\\target.flv");
+            File source = new File("src\\sampleSource.flv");
+            File target = new File("src\\target.flv");
             if(!target.exists()) target.createNewFile();
             
             VideoAttributes video = new VideoAttributes();
